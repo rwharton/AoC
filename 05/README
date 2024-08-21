@@ -1,0 +1,8 @@
+part 2 -- used a coarse grid spacing of 100 to get close to 
+starting seed.  then made input2 to just search around this value.
+
+not very elegant but it works because the ranges for each map transform 
+are all more than like 10,000.  the chances of us hitting an edge are 
+therefore small... I think.
+
+its not very smart but it gives the right answer.
