@@ -23,8 +23,6 @@ int main( int argc, char **argv ){
 }
 
 
-
-
 char * read_file_ma( char *fname, int *nsteps){
     FILE *fp;
     size_t size, nread;
